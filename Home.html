@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gis Map</title>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/09e314988c.js" crossorigin="anonymous"></script>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--Css Style-->
+    <link rel="stylesheet" href="Css/Home.css">
+
+    <!--Map Links-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+    
+</head>
+<body>
+
+    <div class="Nav">
+
+        <div class="navBg">
+
+            <img src="Images/Home.jpg" alt="">
+
+            <div class="navFS">
+
+                <div class="logo">
+
+                    <a href=""><h1>GIS Map</h1></a>
+    
+                </div>
+    
+                <div class="theNav">
+    
+                    <a href="Home.html"><p>Map</p></a>
+                    <a href="About.html"><p>Abouts</p></a>
+                    <a href="Contact.html"><p>Contact</p></a>
+        
+                </div>
+
+                <div class="spaceFS">
+
+                </div>
+
+            </div>
+
+            <div class="container">
+
+                <div class="word">
+
+                    <h2>Circumnavigating The World Though Vision.</h2>
+
+
+                </div>
+
+                <div class="bottom">
+
+                    <div class="btView">
+
+                        <a href=""><p>View Map</p></a>
+    
+                    </div>
+    
+                    <div class="emLog">
+
+                        <a href="">
+                            <div id="mess">
+                                <i class="fas fa-comment-alt"></i>
+                            </div>
+                        </a>
+    
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!--Map Place-->
+
+    <div class="containerMap">
+        <div class="apartments">
+
+            <div id="apart1" class="Apps">
+                <img src="Aparts/greens.jpg">
+                <div class="desc">
+                    <h2>Greens Hostels</h2>
+                    <p>Ksh 4500</p>
+                </div>
+            </div>
+            <div id="apart2" class="Apps">
+                <img src="Aparts/catho.JPG">
+                <div class="desc">
+                    <h2>Catholic Hostels</h2>
+                    <p>Ksh 4000</p>
+                </div>
+               
+            </div>
+            <div id="apart3" class="Apps">
+                <img src="Aparts/kens.jpeg">
+                <div class="desc">
+                    <h2>Kens Hostels</h2>
+                    <p>Ksh 4300</p>
+                </div>
+                
+            </div>
+            <div id="apart4" class="Apps">
+                <img src="Aparts/batian.JPG">
+                <div class="desc">
+                    <h2>Batian Hostels</h2>
+                    <p>Ksh 2000</p>
+                </div>
+                
+            </div>
+            <div id="apart5" class="Apps">
+                <img src="Aparts/sunrise.jpeg">
+                <div class="desc">
+                    <h2>Sunrise Hostels</h2>
+                    <p>Ksh 4000</p>
+                </div>
+                
+            </div>
+            <div id="apart6" class="Apps">
+                <img src="Aparts/staff.JPG">
+                <div class="desc">
+                    <h2>Staff Quater</h2>
+                    <p>Free</p>
+                </div>
+                
+            </div>
+
+        </div>
+        <div class="map" id="mapus">
+
+        </div>
+    </div>
+    
+    <!--Map ending-->
+
+    <div class="footer">
+
+        <div class="logF">
+
+            <a href=""><h1>GIS Map</h1></a>     
+            
+        </div>    
+
+        <div class="contFF">
+
+            <div class="ema">
+                <a href=""><p>Send Mail</p></a>
+            </div>
+    
+            <div class="num">
+                <p>+254703663742</p>
+            </div>
+
+        </div>
+        
+
+        <div class="navF">
+
+            <a href=""><p>Map</p></a>
+            <a href=""><p>Abouts</p></a>
+            <a href=""><p>Contacts</p></a>
+
+        </div>
+
+        <div class="soc">
+            <div id="f">
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div id="i">
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div id="tw">
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+<script src="Js/app.js"></script>
+</html>

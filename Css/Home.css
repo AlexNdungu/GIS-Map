@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navBg {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.navBg::before {
+    content: "";
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0,0.7);
+}
+
+.navBg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navFS {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo,.theNav,.spaceFS {
+    width: 33.3%;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo h1 {
+    margin-left: 40px;
+    font-size: 50px;
+    color: rgb(241, 241, 241);
+}
+
+.theNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.theNav p {
+    color: rgb(241, 241, 241);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.container {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: calc(100% - 100px);
+}
+
+.word {
+    width: 100%;
+    height: calc(100% - 150px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.word h2 {
+    font-size: 60px;
+    width: 700px;
+    margin-left: 40px;
+    color: rgb(241, 241, 241);
+}
+
+.bottom {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btView {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #2C4DC3;
+    margin-left: 40px;
+}
+
+.btView p {
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+}
+
+.emLog {
+    margin-right: 40px;
+}
+
+#mess {
+    font-size: 35px;
+    color: rgb(241, 241, 241);
+}
+
+/* Mapp */
+
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Map Style section */
+
+.containerMap {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.apartments {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 45%;
+    height: 80%;
+}
+
+/* Style App */
+
+.Apps {
+    width: 350px;
+    height: 230px;
+    background-color: brown;
+    position: relative;
+    cursor: pointer;
+    transition: transform .5s;}
+
+.Apps:hover {
+    transform: scale(1.1);
+}
+
+.Apps img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Desc Apps */
+
+.desc {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+}
+
+.desc h2 {
+    color: #2C4DC3;
+    font-size: 25px;
+}
+
+.desc p {
+    color: #2C4DC3;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #030f3a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logF, .contFF,.navF,.soc{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.logF h1 {
+    font-size: 50px;
+    color: rgb(241, 241, 241);
+}
+
+.ema {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(241, 241, 241);
+    margin-left: 40px;
+    border-radius: 40px;
+}
+
+.footer p {
+    color: rgb(241, 241, 241);
+    font-size: 20px;
+    margin: 10px;
+}
+
+#f,#i,#tw {
+    font-size: 28px;
+    color: rgb(241, 241, 241);
+    margin: 5px;
+}
+
+
+/* Email Page Settings */
